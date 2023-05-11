@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけんアプリ</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>じゃんけんアプリ</h1>
+
+    <!-- じゃんけんアプリのルールを記載 -->
+    <div class="rule">
+        <ol>
+            <li>1. グー・チョキ・パーより1つクリック</li>
+            <li>2. あいこの場合はもう一回ボタンをクリック</li>
+            <li>3. 勝負がついてももう一回ボタンをクリック！</li>
+        </ol>
+
+
+    </div>
+    <p></p>
+
+    <div id="janken">
+
+        <!-- ランダム結果を表示する -->
+        <img src="./img/棒人間 仁王立ち.png" class="random-result">
+
+
+        <!-- 対戦者ボタンを作る -->
+        <button class="btn1">ぐー</button>
+        <button class="btn2">ちょき</button>
+        <button class="btn3">ぱー</button>
+
+    </div>
+
+    <!-- 対戦結果を表示する -->
+    <h2></h2>
+
+    <div class="button10">
+        <a href="">もう一回！</a>
+    </div>
+
+
+
+
+    <!-- jqueryを紐づける -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- jsを紐づける -->
+    <script src="./js/test.js"></script>
+
+</body>
+</html>
